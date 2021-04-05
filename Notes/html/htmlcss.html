@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learnign HTML tags</title>
+	<style type="text/css">
+		form {
+			width: 500px;
+			margin: 0 auto;
+			background: silver;
+			padding: 10px;
+			border: 2px solid black;
+		}
+		input[type='text'], input[type='password']{
+		width: 200px;
+		height: 20px;
+		border: 1px solid black;
+	}
+
+	input[type='button'] {
+		background: brown;
+		color: white;
+		border: 1px solid black;
+	}
+	textarea{
+		resize: none;
+		border: 1px solid black;
+
+	}
+	input[type='text']:focus, input[type='password']:focus {
+		background: lightgreen;
+	}
+		input[type='text']:hover, input[type='password']:hover {
+		border-color: brown;
+		border-width: 2px;
+	}
+
+	</style>
+</head>
+<body>
+	
+		<form>
+		<div id="tablecontent">
+<table>
+	<tbody>
+		<tr>
+			<td><label>First Name:</label></td>
+			<td><input type="text" name="fname"></td>
+		</tr>
+		<tr>
+			<td><label>Last Name:</label></td>
+			<td><input type="text" name="lname"></td>
+		</tr>
+				<tr>
+			<td><label>Username:</label></td>
+			<td><input type="text" name="uname"></td>
+		</tr>
+						<tr>
+			<td><label>Password:</label></td>
+			<td><input type="password" name="uname"></td>
+		</tr>
+		<tr>
+			<td><label>Gender: </label><br></td>
+			<td><label>Male</label><input type="radio" name="sex" value="male"> | <label>Female</label><input type="radio" name="sex" value="female"></td>
+		</tr>
+		<tr>
+			<td><label>Courses:</label></td>
+			<td><label>Java</label>
+<input type="checkbox" name="course" value="java"> |
+<label>Python</label>
+<input type="checkbox" name="course" value="python"> |
+<label>Selenium</label>
+<input type="checkbox" name="course" value="selenium"> |
+<label>Webservices</label>
+<input type="checkbox" name="course" value="webservices"</td>
+		</tr>
+		<tr>
+			<td><label>Mobile No:</label></td>
+			<td><input type="text" name="mobileno"></td>
+		</tr>
+				<tr>
+			<td><label>Email:</label></td>
+			<td><input type="text" name="email"></td>
+		</tr>
+				<tr>
+			<td><label>About You:</label></td>
+			<td><textarea rows="5" cols="45"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="button" name="register" value="Register"></td>
+		</tr>
+	</tbody>
+</table></div></form>
+</body>
+</html>
