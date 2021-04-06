@@ -1,0 +1,750 @@
+[1617689187.089][INFO]: Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 45583
+[1617689187.089][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1617689187.997][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "normal"
+   }
+}
+[1617689188.003][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1617689188.004][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1617689188.009][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Chaitu\AppData\Local\Temp\scoped_dir18012_1048398813" data:,
+[1617689189.318][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1617689189.649][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "89.0.4389.114",
+      "chrome": {
+         "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+         "userDataDir": "C:\\Users\\Chaitu\\AppData\\Local\\Temp\\scoped_dir18012_1048398813"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54473"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a15ad359c2d7025fafdb82e94c974897"
+}
+[1617689189.978][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND Navigate {
+   "url": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro"
+}
+[1617689189.979][INFO]: Waiting for pending navigations...
+[1617689189.981][INFO]: Done waiting for pending navigations. Status: ok
+[1617689192.535][INFO]: Waiting for pending navigations...
+[1617689195.702][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.702][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE Navigate
+[1617689195.717][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetTitle {
+
+}
+[1617689195.717][INFO]: Waiting for pending navigations...
+[1617689195.728][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.746][INFO]: Waiting for pending navigations...
+[1617689195.747][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.747][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetTitle "Tryit Editor v3.6"
+[1617689195.767][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='iframeResult'],iframe[name='iframeResult']"
+}
+[1617689195.767][INFO]: Waiting for pending navigations...
+[1617689195.768][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.857][INFO]: Waiting for pending navigations...
+[1617689195.860][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.860][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2a563143-cec8-4416-b05b-2d15e77545f2"
+} ]
+[1617689195.877][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND SwitchToFrame {
+   "id": {
+      "ELEMENT": "2a563143-cec8-4416-b05b-2d15e77545f2",
+      "element-6066-11e4-a52e-4f735466cecf": "2a563143-cec8-4416-b05b-2d15e77545f2"
+   }
+}
+[1617689195.877][INFO]: Waiting for pending navigations...
+[1617689195.883][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.926][INFO]: Waiting for pending navigations...
+[1617689195.927][INFO]: Done waiting for pending navigations. Status: ok
+[1617689195.927][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE SwitchToFrame
+[1617689195.935][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr"
+}
+[1617689195.935][INFO]: Waiting for pending navigations...
+[1617689195.938][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.163][INFO]: Waiting for pending navigations...
+[1617689197.165][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.165][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "3e63093a-4422-476e-a1cd-0c6bdba9dca6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "99693926-ba44-4181-9cfa-11a42fcf9dc6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fb39ebb9-4c65-439a-9885-7ce52fea0305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1d83545-c1c9-4477-8da9-f711a244e541"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "55f5abad-f347-4d1f-af31-121204ee9fd1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cff37636-e292-4cc1-9309-9720a3b93a11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "03ec7482-371d-4151-8e5f-adb1924a6d9e"
+} ]
+[1617689197.198][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[1]/th"
+}
+[1617689197.198][INFO]: Waiting for pending navigations...
+[1617689197.207][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.227][INFO]: Waiting for pending navigations...
+[1617689197.227][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.228][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "6e33a092-daa1-4914-99b5-be348417c4f9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "066f58da-310c-47de-980d-45bd0c8dc577"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b6bf8763-9151-49ec-9097-9ca82279e51a"
+} ]
+[1617689197.234][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[1]/th[1]"
+}
+[1617689197.262][INFO]: Waiting for pending navigations...
+[1617689197.269][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.302][INFO]: Waiting for pending navigations...
+[1617689197.303][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.303][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6e33a092-daa1-4914-99b5-be348417c4f9"
+}
+[1617689197.313][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "6e33a092-daa1-4914-99b5-be348417c4f9"
+}
+[1617689197.313][INFO]: Waiting for pending navigations...
+[1617689197.327][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.362][INFO]: Waiting for pending navigations...
+[1617689197.363][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.363][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Company"
+[1617689197.373][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[1]/th[2]"
+}
+[1617689197.373][INFO]: Waiting for pending navigations...
+[1617689197.374][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.392][INFO]: Waiting for pending navigations...
+[1617689197.393][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.393][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "066f58da-310c-47de-980d-45bd0c8dc577"
+}
+[1617689197.398][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "066f58da-310c-47de-980d-45bd0c8dc577"
+}
+[1617689197.398][INFO]: Waiting for pending navigations...
+[1617689197.399][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.443][INFO]: Waiting for pending navigations...
+[1617689197.446][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.446][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Contact"
+[1617689197.459][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[1]/th[3]"
+}
+[1617689197.459][INFO]: Waiting for pending navigations...
+[1617689197.463][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.503][INFO]: Waiting for pending navigations...
+[1617689197.506][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.506][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b6bf8763-9151-49ec-9097-9ca82279e51a"
+}
+[1617689197.511][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "b6bf8763-9151-49ec-9097-9ca82279e51a"
+}
+[1617689197.511][INFO]: Waiting for pending navigations...
+[1617689197.518][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.542][INFO]: Waiting for pending navigations...
+[1617689197.543][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.543][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Country"
+[1617689197.555][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[2]/th"
+}
+[1617689197.555][INFO]: Waiting for pending navigations...
+[1617689197.557][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.572][INFO]: Waiting for pending navigations...
+[1617689197.573][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.573][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.583][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[3]/th"
+}
+[1617689197.583][INFO]: Waiting for pending navigations...
+[1617689197.584][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.607][INFO]: Waiting for pending navigations...
+[1617689197.609][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.610][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.615][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[4]/th"
+}
+[1617689197.615][INFO]: Waiting for pending navigations...
+[1617689197.618][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.635][INFO]: Waiting for pending navigations...
+[1617689197.651][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.651][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.659][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[5]/th"
+}
+[1617689197.659][INFO]: Waiting for pending navigations...
+[1617689197.663][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.684][INFO]: Waiting for pending navigations...
+[1617689197.686][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.686][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.697][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[6]/th"
+}
+[1617689197.697][INFO]: Waiting for pending navigations...
+[1617689197.699][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.717][INFO]: Waiting for pending navigations...
+[1617689197.718][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.718][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.729][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[7]/th"
+}
+[1617689197.729][INFO]: Waiting for pending navigations...
+[1617689197.733][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.784][INFO]: Waiting for pending navigations...
+[1617689197.795][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.795][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.812][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[1]/td"
+}
+[1617689197.813][INFO]: Waiting for pending navigations...
+[1617689197.814][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.849][INFO]: Waiting for pending navigations...
+[1617689197.851][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.851][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [  ]
+[1617689197.883][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[2]/td"
+}
+[1617689197.883][INFO]: Waiting for pending navigations...
+[1617689197.884][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.909][INFO]: Waiting for pending navigations...
+[1617689197.912][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.912][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9909bba6-224a-4375-9166-44b2694fbecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ab7ce966-8699-441f-9241-55ce7dd8e3bd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ca5e93d4-76a1-46eb-9cd5-348c6a9facfe"
+} ]
+[1617689197.932][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[2]/td[1]"
+}
+[1617689197.932][INFO]: Waiting for pending navigations...
+[1617689197.953][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.969][INFO]: Waiting for pending navigations...
+[1617689197.974][INFO]: Done waiting for pending navigations. Status: ok
+[1617689197.974][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9909bba6-224a-4375-9166-44b2694fbecc"
+}
+[1617689197.992][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "9909bba6-224a-4375-9166-44b2694fbecc"
+}
+[1617689197.993][INFO]: Waiting for pending navigations...
+[1617689198.009][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.093][INFO]: Waiting for pending navigations...
+[1617689198.094][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.094][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Alfreds Futterkiste"
+[1617689198.102][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[2]/td[2]"
+}
+[1617689198.102][INFO]: Waiting for pending navigations...
+[1617689198.114][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.135][INFO]: Waiting for pending navigations...
+[1617689198.136][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.136][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ab7ce966-8699-441f-9241-55ce7dd8e3bd"
+}
+[1617689198.148][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "ab7ce966-8699-441f-9241-55ce7dd8e3bd"
+}
+[1617689198.148][INFO]: Waiting for pending navigations...
+[1617689198.150][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.183][INFO]: Waiting for pending navigations...
+[1617689198.184][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.184][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Maria Anders"
+[1617689198.191][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[2]/td[3]"
+}
+[1617689198.191][INFO]: Waiting for pending navigations...
+[1617689198.192][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.224][INFO]: Waiting for pending navigations...
+[1617689198.226][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.226][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ca5e93d4-76a1-46eb-9cd5-348c6a9facfe"
+}
+[1617689198.229][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "ca5e93d4-76a1-46eb-9cd5-348c6a9facfe"
+}
+[1617689198.229][INFO]: Waiting for pending navigations...
+[1617689198.231][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.257][INFO]: Waiting for pending navigations...
+[1617689198.258][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.258][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Germany"
+[1617689198.268][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[3]/td"
+}
+[1617689198.269][INFO]: Waiting for pending navigations...
+[1617689198.278][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.297][INFO]: Waiting for pending navigations...
+[1617689198.298][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.298][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9cc2ffc5-a11e-49d6-9661-5da7da66538a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "19e8c1c4-e8f9-48f6-b0b3-9f68cc847e99"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a4c20400-bbb6-4352-9cd2-41812dec5136"
+} ]
+[1617689198.308][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[3]/td[1]"
+}
+[1617689198.308][INFO]: Waiting for pending navigations...
+[1617689198.311][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.332][INFO]: Waiting for pending navigations...
+[1617689198.333][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.333][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9cc2ffc5-a11e-49d6-9661-5da7da66538a"
+}
+[1617689198.344][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "9cc2ffc5-a11e-49d6-9661-5da7da66538a"
+}
+[1617689198.344][INFO]: Waiting for pending navigations...
+[1617689198.349][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.377][INFO]: Waiting for pending navigations...
+[1617689198.377][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.377][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Centro comercial Moctezuma"
+[1617689198.384][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[3]/td[2]"
+}
+[1617689198.384][INFO]: Waiting for pending navigations...
+[1617689198.385][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.411][INFO]: Waiting for pending navigations...
+[1617689198.417][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.417][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19e8c1c4-e8f9-48f6-b0b3-9f68cc847e99"
+}
+[1617689198.428][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "19e8c1c4-e8f9-48f6-b0b3-9f68cc847e99"
+}
+[1617689198.428][INFO]: Waiting for pending navigations...
+[1617689198.434][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.462][INFO]: Waiting for pending navigations...
+[1617689198.463][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.463][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Francisco Chang"
+[1617689198.479][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[3]/td[3]"
+}
+[1617689198.479][INFO]: Waiting for pending navigations...
+[1617689198.481][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.507][INFO]: Waiting for pending navigations...
+[1617689198.507][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.508][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a4c20400-bbb6-4352-9cd2-41812dec5136"
+}
+[1617689198.513][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "a4c20400-bbb6-4352-9cd2-41812dec5136"
+}
+[1617689198.514][INFO]: Waiting for pending navigations...
+[1617689198.516][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.535][INFO]: Waiting for pending navigations...
+[1617689198.535][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.535][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Mexico"
+[1617689198.541][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[4]/td"
+}
+[1617689198.541][INFO]: Waiting for pending navigations...
+[1617689198.542][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.569][INFO]: Waiting for pending navigations...
+[1617689198.574][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.574][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "089f9e59-9d7b-40ed-b4db-a6178a80deb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "69499ec9-4e80-4cf5-95d2-f458ea07cfb4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d711931b-5a6e-4d46-928c-1760817b6efc"
+} ]
+[1617689198.584][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[4]/td[1]"
+}
+[1617689198.584][INFO]: Waiting for pending navigations...
+[1617689198.585][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.608][INFO]: Waiting for pending navigations...
+[1617689198.608][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.608][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "089f9e59-9d7b-40ed-b4db-a6178a80deb6"
+}
+[1617689198.612][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "089f9e59-9d7b-40ed-b4db-a6178a80deb6"
+}
+[1617689198.612][INFO]: Waiting for pending navigations...
+[1617689198.612][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.635][INFO]: Waiting for pending navigations...
+[1617689198.636][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.637][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Ernst Handel"
+[1617689198.649][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[4]/td[2]"
+}
+[1617689198.649][INFO]: Waiting for pending navigations...
+[1617689198.650][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.679][INFO]: Waiting for pending navigations...
+[1617689198.681][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.681][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "69499ec9-4e80-4cf5-95d2-f458ea07cfb4"
+}
+[1617689198.684][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "69499ec9-4e80-4cf5-95d2-f458ea07cfb4"
+}
+[1617689198.684][INFO]: Waiting for pending navigations...
+[1617689198.709][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.737][INFO]: Waiting for pending navigations...
+[1617689198.738][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.738][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Roland Mendel"
+[1617689198.744][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[4]/td[3]"
+}
+[1617689198.744][INFO]: Waiting for pending navigations...
+[1617689198.745][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.766][INFO]: Waiting for pending navigations...
+[1617689198.766][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.766][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d711931b-5a6e-4d46-928c-1760817b6efc"
+}
+[1617689198.772][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "d711931b-5a6e-4d46-928c-1760817b6efc"
+}
+[1617689198.772][INFO]: Waiting for pending navigations...
+[1617689198.775][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.851][INFO]: Waiting for pending navigations...
+[1617689198.862][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.862][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Austria"
+[1617689198.866][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[5]/td"
+}
+[1617689198.867][INFO]: Waiting for pending navigations...
+[1617689198.868][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.892][INFO]: Waiting for pending navigations...
+[1617689198.893][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.893][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "59901929-0f5a-4ab4-9264-f57e722629ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1e63c00f-67e9-42c0-8a17-1036f7f0fd54"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0cffe6fb-48dc-4d92-b156-93c3153998f9"
+} ]
+[1617689198.899][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[5]/td[1]"
+}
+[1617689198.899][INFO]: Waiting for pending navigations...
+[1617689198.918][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.947][INFO]: Waiting for pending navigations...
+[1617689198.948][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.948][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "59901929-0f5a-4ab4-9264-f57e722629ef"
+}
+[1617689198.951][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "59901929-0f5a-4ab4-9264-f57e722629ef"
+}
+[1617689198.951][INFO]: Waiting for pending navigations...
+[1617689198.952][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.971][INFO]: Waiting for pending navigations...
+[1617689198.972][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.972][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Island Trading"
+[1617689198.978][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[5]/td[2]"
+}
+[1617689198.978][INFO]: Waiting for pending navigations...
+[1617689198.979][INFO]: Done waiting for pending navigations. Status: ok
+[1617689198.998][INFO]: Waiting for pending navigations...
+[1617689199.002][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.002][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1e63c00f-67e9-42c0-8a17-1036f7f0fd54"
+}
+[1617689199.006][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "1e63c00f-67e9-42c0-8a17-1036f7f0fd54"
+}
+[1617689199.006][INFO]: Waiting for pending navigations...
+[1617689199.007][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.031][INFO]: Waiting for pending navigations...
+[1617689199.032][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.032][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Helen Bennett"
+[1617689199.037][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[5]/td[3]"
+}
+[1617689199.037][INFO]: Waiting for pending navigations...
+[1617689199.038][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.057][INFO]: Waiting for pending navigations...
+[1617689199.058][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.058][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0cffe6fb-48dc-4d92-b156-93c3153998f9"
+}
+[1617689199.061][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "0cffe6fb-48dc-4d92-b156-93c3153998f9"
+}
+[1617689199.061][INFO]: Waiting for pending navigations...
+[1617689199.062][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.100][INFO]: Waiting for pending navigations...
+[1617689199.105][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.106][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "UK"
+[1617689199.112][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[6]/td"
+}
+[1617689199.113][INFO]: Waiting for pending navigations...
+[1617689199.113][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.132][INFO]: Waiting for pending navigations...
+[1617689199.133][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.133][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "61a6047f-7419-4b38-8312-6a6ec0806770"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef69b947-e728-4dc9-a0bf-3eb0db751b94"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d30b45ea-be77-4b89-8970-c85b95db1e61"
+} ]
+[1617689199.142][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[6]/td[1]"
+}
+[1617689199.142][INFO]: Waiting for pending navigations...
+[1617689199.147][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.169][INFO]: Waiting for pending navigations...
+[1617689199.170][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.170][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "61a6047f-7419-4b38-8312-6a6ec0806770"
+}
+[1617689199.173][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "61a6047f-7419-4b38-8312-6a6ec0806770"
+}
+[1617689199.173][INFO]: Waiting for pending navigations...
+[1617689199.174][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.195][INFO]: Waiting for pending navigations...
+[1617689199.196][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.196][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Laughing Bacchus Winecellars"
+[1617689199.201][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[6]/td[2]"
+}
+[1617689199.202][INFO]: Waiting for pending navigations...
+[1617689199.203][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.224][INFO]: Waiting for pending navigations...
+[1617689199.226][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.226][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ef69b947-e728-4dc9-a0bf-3eb0db751b94"
+}
+[1617689199.229][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "ef69b947-e728-4dc9-a0bf-3eb0db751b94"
+}
+[1617689199.229][INFO]: Waiting for pending navigations...
+[1617689199.231][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.250][INFO]: Waiting for pending navigations...
+[1617689199.252][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.252][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Yoshi Tannamuri"
+[1617689199.258][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[6]/td[3]"
+}
+[1617689199.258][INFO]: Waiting for pending navigations...
+[1617689199.259][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.283][INFO]: Waiting for pending navigations...
+[1617689199.289][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.289][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d30b45ea-be77-4b89-8970-c85b95db1e61"
+}
+[1617689199.294][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "d30b45ea-be77-4b89-8970-c85b95db1e61"
+}
+[1617689199.294][INFO]: Waiting for pending navigations...
+[1617689199.296][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.317][INFO]: Waiting for pending navigations...
+[1617689199.319][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.319][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Canada"
+[1617689199.324][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table/tbody/tr[7]/td"
+}
+[1617689199.324][INFO]: Waiting for pending navigations...
+[1617689199.326][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.345][INFO]: Waiting for pending navigations...
+[1617689199.348][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.348][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "51551f4e-8298-4001-9530-ddeb71b44d6c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cf4def3c-140e-4cc4-b2bb-f5216b96559d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6e8830b2-c82a-441d-854b-331979323eeb"
+} ]
+[1617689199.357][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[7]/td[1]"
+}
+[1617689199.357][INFO]: Waiting for pending navigations...
+[1617689199.358][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.378][INFO]: Waiting for pending navigations...
+[1617689199.379][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.379][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "51551f4e-8298-4001-9530-ddeb71b44d6c"
+}
+[1617689199.382][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "51551f4e-8298-4001-9530-ddeb71b44d6c"
+}
+[1617689199.382][INFO]: Waiting for pending navigations...
+[1617689199.383][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.459][INFO]: Waiting for pending navigations...
+[1617689199.468][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.468][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Magazzini Alimentari Riuniti"
+[1617689199.480][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[7]/td[2]"
+}
+[1617689199.480][INFO]: Waiting for pending navigations...
+[1617689199.567][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.630][INFO]: Waiting for pending navigations...
+[1617689199.642][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.642][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "cf4def3c-140e-4cc4-b2bb-f5216b96559d"
+}
+[1617689199.665][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "cf4def3c-140e-4cc4-b2bb-f5216b96559d"
+}
+[1617689199.665][INFO]: Waiting for pending navigations...
+[1617689199.676][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.706][INFO]: Waiting for pending navigations...
+[1617689199.716][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.716][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Giovanni Rovelli"
+[1617689199.725][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table/tbody/tr[7]/td[3]"
+}
+[1617689199.726][INFO]: Waiting for pending navigations...
+[1617689199.728][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.746][INFO]: Waiting for pending navigations...
+[1617689199.746][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.746][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6e8830b2-c82a-441d-854b-331979323eeb"
+}
+[1617689199.749][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND GetElementText {
+   "id": "6e8830b2-c82a-441d-854b-331979323eeb"
+}
+[1617689199.749][INFO]: Waiting for pending navigations...
+[1617689199.750][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.769][INFO]: Waiting for pending navigations...
+[1617689199.770][INFO]: Done waiting for pending navigations. Status: ok
+[1617689199.770][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE GetElementText "Italy"
+[1617689199.774][INFO]: [a15ad359c2d7025fafdb82e94c974897] COMMAND Quit {
+
+}
+[1617689200.071][INFO]: [a15ad359c2d7025fafdb82e94c974897] RESPONSE Quit

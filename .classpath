@@ -14,5 +14,10 @@
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/client-combined-3.141.59.jar" sourcepath="D:/cts_workspace/JARS/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-tests.jar"/>
+	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
