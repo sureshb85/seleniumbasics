@@ -19,5 +19,38 @@
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-sources.jar"/>
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-tests.jar"/>
 	<classpathentry kind="lib" path="D:/cts_workspace/JARS/commons-io-2.8.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-examples-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-excelant-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-integration-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-ooxml-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-ooxml-full-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-ooxml-lite-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/poi-scratchpad-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/ooxml-lib/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/ooxml-lib/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/ooxml-lib/xmlbeans-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/lib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/poi-bin-5.0.0-20210120/poi-5.0.0/lib/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/webdrivermanager-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/pdfbox-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/commons-compress-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/jarchivelib-0.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/jar_files/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/pdfbox-tools-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/xmpbox-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/preflight-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chaitu/Downloads/fontbox-3.0.0-RC1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
